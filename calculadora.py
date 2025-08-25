@@ -1,14 +1,14 @@
 class Calculadora:
-    def soma(self, n1, n2):
+    def soma( n1, n2):
         return n1 + n2
 
-    def subtracao(self, n1, n2):
+    def subtracao( n1, n2):
         return n1 - n2
 
-    def multiplicacao(self, n1, n2):
+    def multiplicacao( n1, n2):
         return n1 * n2
 
-    def divisao(self, n1, n2):
+    def divisao( n1, n2):
         if n2 == 0:
-            raise ZeroDivisionError("Divisão por zero não permitida")
+            raise ZeroDivisionError("Err0! Tentativa de divisão por 0")
         return n1 / n2
